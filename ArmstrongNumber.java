@@ -3,7 +3,7 @@
 // Return "Yes" if it is a armstrong number else return "No".
 // NOTE: 371 is an Armstrong number since 33 + 73 + 13 = 371
   
-class Solution {
+class ArmstrongNumber {
     static String armstrongNumber(int n){
         int num = n, sum=0;
         while(num>0) {
